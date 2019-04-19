@@ -1,6 +1,6 @@
-.box {
+/* .box {
     border: 3px solid #000000;
-    /* border-width: 5px; */
+    border-width: 5px;
 }
 
 .yellow {
@@ -31,4 +31,50 @@
     background-color: #000000;
     color: #ffffff; 
     height: 50px;
+} */
+
+.container-fluid {
+    background-color: yellow;
+}
+
+header, main, section {
+    height: 250px;
+}
+
+header {
+    background-color: blue;
+}
+
+nav {
+    background-color: green;
+}
+
+main > div {
+    background-color: red;
+}
+
+main > aside {
+    background-color: #0788b0;
+}
+
+main > div,
+main > aside {
+    height: 250px;
+}
+
+footer {
+    background-color: #000;
+}
+
+nav, footer {
+    height: 100px;
+}
+
+.col-md-3 {
+    background-color: #f36207;
+    height: 250px;
+}
+
+.border_columns {
+    border: 2px solid #000
 }
