@@ -1,0 +1,80 @@
+/* .box {
+    border: 3px solid #000000;
+    border-width: 5px;
+}
+
+.yellow {
+    background-color: #ffff00;
+    height: 650px;
+}
+.blue {
+    background-color: #0600FF;
+    height: 150px;
+}
+.green {
+    background-color: #018000;
+    height: 60px;
+}
+.red {
+    background-color: #ff0000;
+    height: 200px;
+}
+.light-blue {
+    background-color: #09ffff;
+    height: 200px;
+}
+.orange {
+    background-color: #ffa500;
+    height: 150px;
+}
+.black {
+    background-color: #000000;
+    color: #ffffff; 
+    height: 50px;
+} */
+
+.container-fluid {
+    background-color: yellow;
+}
+
+header, main, section {
+    height: 250px;
+}
+
+header {
+    background-color: blue;
+}
+
+nav {
+    background-color: green;
+}
+
+main > div {
+    background-color: red;
+}
+
+main > aside {
+    background-color: #0788b0;
+}
+
+main > div,
+main > aside {
+    height: 250px;
+}
+
+footer {
+    background-color: #000;
+}
+
+nav, footer {
+    height: 100px;
+}
+
+.col-md-3 {
+    background-color: #f36207;
+    height: 250px;
+}
+
+.border_columns {
+    border: 2px solid #000
+}
